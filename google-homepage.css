@@ -1,0 +1,24 @@
+  h1 {
+      color: aliceblue;
+      font-size: 20;
+  }
+
+  .wrapper {
+      display: grid;
+      grid-template-columns: 40px 40px 40px;
+      border-bottom-style: 2px;
+      color: black;
+  }
+
+.img {
+    justify-content: center;
+}
+
+#search-box { 
+    background-color: rgb(228, 222, 222);
+    border-radius: 10px;
+}
+
+.options {
+    background-color: rgb(238, 232, 232);
+}
