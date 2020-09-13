@@ -1,24 +1,52 @@
-  h1 {
-      color: aliceblue;
-      font-size: 20;
-  }
+* { 
+    margin: 0;
+    padding: 0;
+}  
+.header { 
+   margin: 10px;
+   padding: 10px;
+   text-decoration: none;
 
-  .wrapper {
-      display: grid;
-      grid-template-columns: 40px 40px 40px;
-      border-bottom-style: 2px;
-      color: black;
-  }
-
-.img {
-    justify-content: center;
 }
 
-#search-box { 
-    background-color: rgb(228, 222, 222);
-    border-radius: 10px;
+.left-header {
+    float: left;
+
 }
 
-.options {
-    background-color: rgb(238, 232, 232);
+.right-header { 
+    float: right;
+
+}
+
+.main-logo { 
+    text-align: center;
+    padding: 10px;
+
+}
+
+.search-submit { 
+    text-align: center;
+    padding: 20px;
+
+}
+
+.search { 
+    border-radius: 50px;
+}
+
+.buttons { 
+    text-align: center;
+    padding: 30px;
+
+}
+
+.left-footer { 
+    text-align: left;
+
+}
+
+.right-footer { 
+    text-align: right;
+    
 }
